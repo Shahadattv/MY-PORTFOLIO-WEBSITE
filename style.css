@@ -1,11 +1,30 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+}
+h2{
+font-size: 40PX;
 }
 .name{
     color: tomato;
+}
+.top-baner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.about{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 10%;
+}
+
+section{
+    height: 500px;
 }
 .half-width{
     width: 40%;
@@ -17,4 +36,95 @@ h1{
 .half-width img{
 
 width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+
+}
+.experiance-area{
+    margin-top: 10%;
+    width: 100%;
+    height: 500PX;
+    background-color: gainsboro;
+}
+
+#last-work{
+
+    text-align: center;
+   padding-top: 5%;
+   font-weight: 800px;
+}
+.project{
+    background-color: white;
+    width: 25%;
+    height: 300PX;
+    margin-left:5%;
+    padding-left:2%;
+    float: left;
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.project img{
+    width: 85%;
+}
+
+
+.INQUIYR{
+    width: 900PX;
+    height: 200PX;
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    background-image: url("image/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 900px 200px;
+    
+}
+
+.CHAT{
+
+    width: 50%;
+    height: 200PX;
+}
+.CHAT h2{
+    padding-top:50PX;
+    padding-left: 40PX;
+    color: white;
+}
+.SETUP{
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 70px;
+    color: white;
+    padding: 20px 30px;
+    height: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(35deg, lightSalmon,tomato);
+
+}
+   .contruct{
+       text-align: center;
+       padding-top: 5px;
+   } 
+
+.fotter{
+    width: 100%;
+    height: 150px;
+   
+}
+.fotter img{
+    align-items: center;
+    width: 30PX;
+    height: 30PX;
+    margin: 5PX;
+}
+.IMAGE{
+margin-left: 600PX;
 }
